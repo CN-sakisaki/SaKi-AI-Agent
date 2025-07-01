@@ -1,6 +1,17 @@
 spring:
   application:
     name: SaKi-AI-Agent
+  ai:
+    dashscope:
+#      实际的API
+      api-key: sk-065ce6c39c504d87b2f4e36d997dcdcf
+      chat:
+        options:
+          model: qwen-plus
+#    ollama:
+#      base-url: http://localhost:11434
+#      chat:
+#        model: llama3.2
 server:
   port: 8123
   servlet:
